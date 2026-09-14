@@ -7,7 +7,7 @@
 */
 const SITE = {
   company: "Suneema Properties",
-  email: "suneemapropertiespune7587@gmail.com/suneemapropertiesmumbai8970@gmail.com", // CHANGE THIS
+  email: "suneemapropertiespune7587@gmail.com", // CHANGE THIS
   phone: "+91 8975878970",             // CHANGE THIS
   whatsapp: "919657758758",             // CHANGE THIS: digits only, country code included
   location: "HIGH RISE RECIDENCIL CIVIL CONSTRACTION PROJECTS MANEGMENTS CONSULTANTS",
