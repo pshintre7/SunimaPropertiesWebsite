@@ -1,0 +1,56 @@
+SUNIMA PROPERTIES - UPDATE GUIDE
+=================================
+
+1. CONTACT DETAILS
+Open: js/site-data.js
+Change:
+- email
+- phone
+- whatsapp (digits only, country code included)
+- location
+
+2. ADD / UPDATE PROJECTS
+Open: js/site-data.js
+Inside SITE.projects, each project looks like:
+{
+  image: "images/projects/project-1.jpg",
+  status: "PROJECT SUPERVISION",
+  name: "Your Project Name",
+  location: "Pune, Maharashtra",
+  description: "Your project description."
+}
+
+Copy an existing project object and change the values to add another project.
+
+3. PROJECT IMAGES
+Put your JPG/PNG images in:
+images/projects/
+
+Example:
+images/projects/my-project.jpg
+
+Then set:
+image: "images/projects/my-project.jpg"
+
+Recommended image size: around 1600 x 900 or similar landscape ratio.
+
+4. CHANGE SERVICES / OTHER CONTENT
+The main page content is in index.html. You can edit the text directly.
+CSS design is in css/style.css.
+
+5. WHATSAPP
+The floating WhatsApp button and enquiry form automatically use SITE.whatsapp.
+Replace the placeholder before publishing.
+
+6. TEST LOCALLY
+Mac/Windows: double-click index.html for a quick preview.
+For the best preview, open Terminal in this folder and run:
+python3 -m http.server 8000
+Then visit:
+http://localhost:8000
+
+7. GITHUB PAGES
+Create a GitHub repository, upload all files/folders, then enable:
+Settings > Pages > Deploy from branch > main > /(root)
+
+IMPORTANT: Keep the folder structure unchanged unless you also update file paths.
