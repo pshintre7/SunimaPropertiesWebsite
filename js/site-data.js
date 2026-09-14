@@ -6,11 +6,11 @@
   You do NOT need to edit the main HTML for normal updates.
 */
 const SITE = {
-  company: "Sunima Properties",
-  email: "info@sunimaproperties.com", // CHANGE THIS
-  phone: "+91 XXXXX XXXXX",             // CHANGE THIS
-  whatsapp: "919999999999",             // CHANGE THIS: digits only, country code included
-  location: "Pune, Maharashtra, India",
+  company: "Suneema Properties",
+  email: "suneemapropertiespune7587@gmail.com/suneemapropertiesmumbai8970@gmail.com", // CHANGE THIS
+  phone: "+91 8975878970",             // CHANGE THIS
+  whatsapp: "919657758758",             // CHANGE THIS: digits only, country code included
+  location: "HIGH RISE RECIDENCIL CIVIL CONSTRACTION PROJECTS MANEGMENTS CONSULTANTS",
   tagline: "Construction & Real Estate Solutions",
   projects: [
     {
