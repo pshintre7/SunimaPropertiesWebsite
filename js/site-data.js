@@ -14,7 +14,7 @@ const SITE = {
   tagline: "Construction & Real Estate Solutions",
   projects: [
     {
-      image: "images/projects/project-1.svg",
+      image: "images/projects/Unknown.jpeg",
       status: "PROJECT SUPERVISION",
       name: "Residential Development",
       location: "Pune, Maharashtra",
