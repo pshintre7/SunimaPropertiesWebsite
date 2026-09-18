@@ -26,10 +26,6 @@ const siteData = {
         phone:
             "+91 XXXXX XXXXX",
 
-        /* IMPORTANT:
-           Enter WhatsApp number WITHOUT +, spaces or hyphens.
-           Example: 919876543210
-        */
         whatsapp:
             "919999999999"
     },
@@ -70,50 +66,35 @@ const siteData = {
 
         {
             number: "01",
-
-            title:
-                "Project Supervision",
-
-            shortTitle:
-                "Supervision",
+            title: "Project Supervision",
+            shortTitle: "Supervision",
 
             description:
                 "Architectural coordination, construction supervision and project execution support for residential and commercial developments.",
 
-            icon:
-                "supervision"
+            icon: "supervision"
         },
 
         {
             number: "02",
-
-            title:
-                "Project Sales",
-
-            shortTitle:
-                "Project Sales",
+            title: "Project Sales",
+            shortTitle: "Project Sales",
 
             description:
                 "Project sales and marketing support with sales capabilities to help builders and developers reach customers and scale project sales.",
 
-            icon:
-                "sales"
+            icon: "sales"
         },
 
         {
             number: "03",
-
-            title:
-                "Construction Solutions",
-
-            shortTitle:
-                "Construction Solutions",
+            title: "Construction Solutions",
+            shortTitle: "Construction Solutions",
 
             description:
                 "Connecting builders and developers with practical construction products, lift solutions, tiles and business opportunities.",
 
-            icon:
-                "construction"
+            icon: "construction"
         }
     ],
 
@@ -125,9 +106,7 @@ const siteData = {
 
         {
             number: "01",
-
-            title:
-                "Architectural & Project Supervision",
+            title: "Architectural & Project Supervision",
 
             description:
                 "Supervision and coordination of architectural plans, site activities and project execution."
@@ -135,9 +114,7 @@ const siteData = {
 
         {
             number: "02",
-
-            title:
-                "Construction Site Coordination",
+            title: "Construction Site Coordination",
 
             description:
                 "Coordination between project requirements, site execution, contractors and stakeholders."
@@ -145,9 +122,7 @@ const siteData = {
 
         {
             number: "03",
-
-            title:
-                "Project Sales & Marketing",
+            title: "Project Sales & Marketing",
 
             description:
                 "Sales support and marketing capabilities for builders and developers looking to grow project sales."
@@ -155,9 +130,7 @@ const siteData = {
 
         {
             number: "04",
-
-            title:
-                "Builder & Developer Support",
+            title: "Builder & Developer Support",
 
             description:
                 "Business support, project coordination and strategic assistance across different stages of development."
@@ -165,9 +138,7 @@ const siteData = {
 
         {
             number: "05",
-
-            title:
-                "Lift / Elevator Solutions",
+            title: "Lift / Elevator Solutions",
 
             description:
                 "Lift and elevator business opportunities and solutions for residential and commercial projects."
@@ -175,9 +146,7 @@ const siteData = {
 
         {
             number: "06",
-
-            title:
-                "Tiles & Finishing Solutions",
+            title: "Tiles & Finishing Solutions",
 
             description:
                 "Tiles, finishing materials and related construction product opportunities for development projects."
@@ -209,185 +178,233 @@ const siteData = {
 
     /* =========================================================
        PROJECTS
-       
-       ADD NEW PROJECTS HERE.
-
-       category must be:
-       "residential"
-       OR
-       "commercial"
-
-       Every project can have unlimited images.
        ========================================================= */
+
     projects: [
 
-        /* -----------------------------------------------------
+        /* =====================================================
            RESIDENTIAL PROJECT 1
-           ----------------------------------------------------- */
+           ===================================================== */
         {
-            id: "residential-project-1",
+            id: "greenview-residences",
 
             category: "residential",
 
-            name:
-                "ABC Heights",
+            name: "Greenview Residences",
 
-            location:
-                "Wakad, Pune",
+            location: "Wakad, Pune",
 
-            status:
-                "Ongoing",
+            status: "Ongoing",
 
-            type:
-                "Residential",
+            type: "Residential Development",
 
-            year:
-                "2026",
+            year: "2026",
 
             description:
-                "Residential development project supported with project supervision, construction coordination and execution support.",
+                "A contemporary residential development with modern planning, quality construction and thoughtfully designed living spaces.",
 
             mainImage:
-                "images/projects/abc-heights/1.jpeg",
+                "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1400&q=85",
 
             images: [
 
-                "images/projects/abc-heights/1.jpeg",
+                "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1600&q=85",
 
-                "images/projects/abc-heights/2.jpeg",
+                "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=1600&q=85",
 
-                "images/projects/abc-heights/3.jpeg",
+                "https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&w=1600&q=85",
 
-                "images/projects/abc-heights/4.jpeg",
+                "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=85",
 
-                "images/projects/abc-heights/5.jpeg"
+                "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?auto=format&fit=crop&w=1600&q=85"
 
             ]
         },
 
 
-        /* -----------------------------------------------------
+        /* =====================================================
            RESIDENTIAL PROJECT 2
-           ----------------------------------------------------- */
+           ===================================================== */
         {
-            id: "residential-project-2",
+            id: "skyline-heights",
 
             category: "residential",
 
-            name:
-                "Sunima Residency",
+            name: "Skyline Heights",
 
-            location:
-                "Ravet, Pune",
+            location: "Ravet, Pune",
 
-            status:
-                "Completed",
+            status: "Completed",
 
-            type:
-                "Residential",
+            type: "Residential Development",
 
-            year:
-                "2025",
+            year: "2025",
 
             description:
-                "Residential project with construction supervision and project coordination support.",
+                "A residential development focused on comfortable living spaces, efficient planning and modern amenities.",
 
             mainImage:
-                "images/projects/sunima-residency/1.jpeg",
+                "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1400&q=85",
 
             images: [
 
-                "images/projects/sunima-residency/1.jpeg",
+                "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1600&q=85",
 
-                "images/projects/sunima-residency/2.jpeg",
+                "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1600&q=85",
 
-                "images/projects/sunima-residency/3.jpeg",
+                "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1600&q=85",
 
-                "images/projects/sunima-residency/4.jpeg"
+                "https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&w=1600&q=85"
 
             ]
         },
 
 
-        /* -----------------------------------------------------
+        /* =====================================================
+           RESIDENTIAL PROJECT 3
+           ===================================================== */
+        {
+            id: "riverfront-residences",
+
+            category: "residential",
+
+            name: "Riverfront Residences",
+
+            location: "Tathawade, Pune",
+
+            status: "Upcoming",
+
+            type: "Residential Development",
+
+            year: "2026",
+
+            description:
+                "An upcoming residential development planned around modern lifestyle requirements and contemporary architecture.",
+
+            mainImage:
+                "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=1400&q=85",
+
+            images: [
+
+                "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1600&q=85",
+
+                "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1600&q=85",
+
+                "https://images.unsplash.com/photo-1600566753051-7e6c7a3e6f75?auto=format&fit=crop&w=1600&q=85",
+
+                "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?auto=format&fit=crop&w=1600&q=85"
+
+            ]
+        },
+
+
+        /* =====================================================
            COMMERCIAL PROJECT 1
-           ----------------------------------------------------- */
+           ===================================================== */
         {
-            id: "commercial-project-1",
+            id: "pune-business-hub",
 
             category: "commercial",
 
-            name:
-                "ABC Business Park",
+            name: "Pune Business Hub",
 
-            location:
-                "Baner, Pune",
+            location: "Baner, Pune",
 
-            status:
-                "Ongoing",
+            status: "Ongoing",
 
-            type:
-                "Commercial",
+            type: "Commercial Development",
 
-            year:
-                "2026",
+            year: "2026",
 
             description:
-                "Commercial development supported through project coordination, supervision and construction solutions.",
+                "A modern commercial development designed for offices, businesses and professional services.",
 
             mainImage:
-                "images/projects/abc-business-park/1.jpeg",
+                "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1400&q=85",
 
             images: [
 
-                "images/projects/abc-business-park/1.jpeg",
+                "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1600&q=85",
 
-                "images/projects/abc-business-park/2.jpeg",
+                "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1600&q=85",
 
-                "images/projects/abc-business-park/3.jpeg",
+                "https://images.unsplash.com/photo-1497366811364-6870744d04b2?auto=format&fit=crop&w=1600&q=85",
 
-                "images/projects/abc-business-park/4.jpeg"
+                "https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=1600&q=85"
 
             ]
         },
 
 
-        /* -----------------------------------------------------
+        /* =====================================================
            COMMERCIAL PROJECT 2
-           ----------------------------------------------------- */
+           ===================================================== */
         {
-            id: "commercial-project-2",
+            id: "techpoint-commercial",
 
             category: "commercial",
 
-            name:
-                "Business Centre",
+            name: "TechPoint Commercial Centre",
 
-            location:
-                "Hinjewadi, Pune",
+            location: "Hinjewadi, Pune",
 
-            status:
-                "Upcoming",
+            status: "Upcoming",
 
-            type:
-                "Commercial",
+            type: "Commercial Development",
 
-            year:
-                "2026",
+            year: "2026",
 
             description:
-                "Commercial project opportunity supported through business coordination and construction solutions.",
+                "A commercial development planned to support offices, retail and business requirements in a growing business corridor.",
 
             mainImage:
-                "images/projects/business-centre/1.jpeg",
+                "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1400&q=85",
 
             images: [
 
-                "images/projects/business-centre/1.jpeg",
+                "https://images.unsplash.com/photo-1497366412874-3415097a27e7?auto=format&fit=crop&w=1600&q=85",
 
-                "images/projects/business-centre/2.jpeg",
+                "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1600&q=85",
 
-                "images/projects/business-centre/3.jpeg"
+                "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1600&q=85",
+
+                "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1600&q=85"
+
+            ]
+        },
+
+
+        /* =====================================================
+           COMMERCIAL PROJECT 3
+           ===================================================== */
+        {
+            id: "urban-retail-plaza",
+
+            category: "commercial",
+
+            name: "Urban Retail Plaza",
+
+            location: "Pimpri, Pune",
+
+            status: "Completed",
+
+            type: "Commercial Development",
+
+            year: "2025",
+
+            description:
+                "A commercial retail development designed to support businesses, retail outlets and customer-focused spaces.",
+
+            mainImage:
+                "https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1400&q=85",
+
+            images: [
+
+                "https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?auto=format&fit=crop&w=1600&q=85",
+
+                "https://images.unsplash.com/photo-1604324008151-1b3f2f5b3a5e?auto=format&fit=crop&w=1600&q=85",
+
+                "https://images.unsplash.com/photo-1521336575822-6da63fb45455?auto=format&fit=crop&w=1600&q=85"
 
             ]
         }
@@ -401,8 +418,7 @@ const siteData = {
     constructionSolutions: [
 
         {
-            title:
-                "Lift / Elevator Solutions",
+            title: "Lift / Elevator Solutions",
 
             description:
                 "Lift and elevator solutions and business opportunities for residential and commercial projects.",
@@ -412,8 +428,7 @@ const siteData = {
         },
 
         {
-            title:
-                "Tiles & Finishing Solutions",
+            title: "Tiles & Finishing Solutions",
 
             description:
                 "Tiles, finishing materials and construction product opportunities for builders and developers.",
@@ -423,8 +438,7 @@ const siteData = {
         },
 
         {
-            title:
-                "Construction Products",
+            title: "Construction Products",
 
             description:
                 "Connecting development projects with practical construction products and solutions.",
@@ -434,8 +448,7 @@ const siteData = {
         },
 
         {
-            title:
-                "Franchise & Business Opportunities",
+            title: "Franchise & Business Opportunities",
 
             description:
                 "Business opportunities involving construction products, services and franchise partnerships.",
@@ -453,24 +466,21 @@ const siteData = {
     partnerships: [
 
         {
-            title:
-                "Builders & Developers",
+            title: "Builders & Developers",
 
             description:
                 "Project supervision, sales support and construction solutions for builders and developers."
         },
 
         {
-            title:
-                "Manufacturers & Suppliers",
+            title: "Manufacturers & Suppliers",
 
             description:
                 "Business opportunities to connect quality construction products with development projects."
         },
 
         {
-            title:
-                "Franchise & Business Partners",
+            title: "Franchise & Business Partners",
 
             description:
                 "Exploring franchise, dealership and strategic business opportunities in the construction ecosystem."
@@ -523,27 +533,32 @@ const siteData = {
 
             {
                 title: "Supervision",
-                description: "Architectural and project execution support."
+                description:
+                    "Architectural and project execution support."
             },
 
             {
                 title: "Project Sales",
-                description: "Sales and marketing capabilities for development projects."
+                description:
+                    "Sales and marketing capabilities for development projects."
             },
 
             {
                 title: "Construction Solutions",
-                description: "Products, services and strategic construction opportunities."
+                description:
+                    "Products, services and strategic construction opportunities."
             },
 
             {
                 title: "Builders & Developers",
-                description: "Creating long-term project and business partnerships."
+                description:
+                    "Creating long-term project and business partnerships."
             },
 
             {
                 title: "Enquiry / WhatsApp",
-                description: "Direct communication for project and business opportunities."
+                description:
+                    "Direct communication for project and business opportunities."
             }
 
         ]
@@ -580,7 +595,6 @@ const siteData = {
        ========================================================= */
     whatsapp: {
 
-        /* Same number as company.whatsapp */
         number:
             "919999999999",
 
